@@ -1,4 +1,6 @@
 sudo: required
+language: generic
+
 services:
    - docker
 before_install:
@@ -15,7 +17,7 @@ deploy:
    bucket_name: 'elasticbeanstalk-ap-south-1-218135838242'
    bucket_path: 'docker'
    on:
-    branch: master
+    branch: main
   access_key_id: $AWS_ACCESS_KEY
   secret_acess_key:
       secure: "$AWS_SECRET_KEY"
