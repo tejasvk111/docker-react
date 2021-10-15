@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         I was changed teja version2
+         I was changed teja through git
         </p>
         <a
           className="App-link"
